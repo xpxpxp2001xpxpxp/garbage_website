@@ -16,6 +16,8 @@ module.exports = {
     'html'
   ],
   'rules': {
+    "no-mixed-spaces-and-tabs": 0,
+    "no-tabs": 0,
     // allow paren-less arrow functions
     //'arrow-parens': 0,
     //	"no-tabs":"off",
