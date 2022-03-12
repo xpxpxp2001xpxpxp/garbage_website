@@ -15,14 +15,14 @@ export default new Router({
     //   redirect: '/'
     // },
     {
-	  path: '/predict',
-	  name: 'predict',
-	  component: require('@/components/predict').default
+      path: '/predict',
+      name: 'predict',
+      component: require('@/components/predict').default
     },
     {
-	  path: '/result',
-	  name: 'result',
-	  component: require('@/components/result').default
+      path: '/result',
+      name: 'result',
+      component: require('@/components/result').default
     }
   ]
 })

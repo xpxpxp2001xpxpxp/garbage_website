@@ -99,7 +99,7 @@ export default {
           		 message: '垃圾桶即将打开',
 				 type: 'success'
        			 })
-			 this.$http.get('http://192.168.50.214:8080/open_motor?channel=' + channel, { // 还可以直接把参数拼接在url后边
+			 this.$http.get('http://112.124.107.16:8080/open_motor?channel=' + channel, { // 还可以直接把参数拼接在url后边
     			}).then(function (res) {
 					 // alert(res.data);
 					 self.$notify({

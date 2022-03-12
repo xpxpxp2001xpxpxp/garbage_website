@@ -8,7 +8,7 @@
 			<el-col :span="12">
 
 				<el-card class="box-card"  :body-style="{ padding: '0px', height: '60%'}" >
-				   <img src="http://192.168.50.214:8080/video_img_url" class="image" ></img>
+				   <img src="http://112.124.107.16:8080/video_img_url" class="image" ></img>
 				</el-card>
 			</el-col>
 			<el-col :span="8" :offset="2">
@@ -53,7 +53,7 @@ export default {
 				  this.$router.push('./')
 	    },
 		  takeAPhotho () {
-				 this.$http.get('http://192.168.50.214:8080/shut_photho', { // 还可以直接把参数拼接在url后边
+				 this.$http.get('http://112.124.107.16:8080/shut_photho', { // 还可以直接把参数拼接在url后边
     			}).then(function (res) {
 					  self.$message({
           message: res.data,
@@ -94,7 +94,7 @@ export default {
 				  break
 		  }
 		  }
-	}
+  }
 }
 </script>
 
